@@ -2,7 +2,7 @@
 
  Code from the below [Real Python tutorial](https://realpython.com/lessons/python-sphinx-overview/)  on using Sphinx and Read the Docs:
 
-<img src="/home/keith/code/sphinx/img/RP_title_page.png" style="zoom:67%;" />
+<img src="img/RP_title_page.png" style="zoom:67%;" />
 
 #### Installation
 
