@@ -18,9 +18,12 @@ else:
 
 import importlib.util
 import os
+import sys
+
+sys.path.insert(0, os.path.abspath('../src'))
 
 # import the module
-spec = importlib.util.spec_from_file_location("serenity", os.path.abspath('../src/__init__.py'))
+spec = importlib.util.spec_from_file_location("serenity", os.path.abspath('../src/serenity/__init__.py'))
 serenity = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(serenity)
 
